@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZBOPF_S_PTY_ORDERING_PARTY</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Include Structure for Ordering Party</DDTEXT>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>ZBOPF_S_PTY_ORDERING_PARTY</TABNAME>
+     <FIELDNAME>OP_ADDRESS_ID</FIELDNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <POSITION>0001</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000080</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000040</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Unique Identifier for Address (APC_V_ADDRESS_ID)</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZBOPF_S_PTY_ORDERING_PARTY</TABNAME>
+     <FIELDNAME>ORDER_PARTY_ID</FIELDNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <POSITION>0002</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Sold-to Party</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZBOPF_S_PTY_ORDERING_PARTY</TABNAME>
+     <FIELDNAME>ORDER_PARTY_KEY</FIELDNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <POSITION>0003</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>RAW</DATATYPE>
+     <LENG>000016</LENG>
+     <MASK>  RAW</MASK>
+     <DDTEXT>Sold-to Party Business Partner GUID</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>

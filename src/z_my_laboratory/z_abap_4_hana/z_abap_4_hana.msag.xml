@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_MSAG" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <T100A>
+    <ARBGB>Z_ABAP_4_HANA</ARBGB>
+    <MASTERLANG>E</MASTERLANG>
+    <STEXT>ABAP FOR HANA ANALYZER</STEXT>
+   </T100A>
+   <T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_ABAP_4_HANA</ARBGB>
+     <MSGNR>000</MSGNR>
+     <TEXT>&amp; &amp; &amp; &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_ABAP_4_HANA</ARBGB>
+     <MSGNR>001</MSGNR>
+     <TEXT>Folder &amp; not valid</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_ABAP_4_HANA</ARBGB>
+     <MSGNR>002</MSGNR>
+     <TEXT>User &amp; does not part of transport &amp;</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_ABAP_4_HANA</ARBGB>
+     <MSGNR>003</MSGNR>
+     <TEXT>Transport &amp; cannot be used: not a workbench request</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_ABAP_4_HANA</ARBGB>
+     <MSGNR>004</MSGNR>
+     <TEXT>Transport &amp; cannot be used: wrong status</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_ABAP_4_HANA</ARBGB>
+     <MSGNR>005</MSGNR>
+     <TEXT>Object &amp;-&amp; cannot be checked as it&apos;s standard</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_ABAP_4_HANA</ARBGB>
+     <MSGNR>006</MSGNR>
+     <TEXT>Object &amp;-&amp; not valid (missing in TADIR)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_ABAP_4_HANA</ARBGB>
+     <MSGNR>007</MSGNR>
+     <TEXT>Object &amp;-&amp; not owned by current system (&amp;)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_ABAP_4_HANA</ARBGB>
+     <MSGNR>008</MSGNR>
+     <TEXT>Object &amp; contains syntax error(s)</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_ABAP_4_HANA</ARBGB>
+     <MSGNR>009</MSGNR>
+     <TEXT>Transport object is mandatory for automatic changes</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_ABAP_4_HANA</ARBGB>
+     <MSGNR>010</MSGNR>
+     <TEXT>Object &amp;-&amp; has not been changed - nothing to be restored</TEXT>
+    </T100>
+    <T100>
+     <SPRSL>E</SPRSL>
+     <ARBGB>Z_ABAP_4_HANA</ARBGB>
+     <MSGNR>011</MSGNR>
+     <TEXT>Object &amp;-&amp; not saved - nothing to restore</TEXT>
+    </T100>
+   </T100>
+  </asx:values>
+ </asx:abap>
+</abapGit>

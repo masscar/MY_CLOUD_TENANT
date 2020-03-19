@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_TABL" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DD02V>
+    <TABNAME>ZBOPF_S_PTY_CONSIGNEE</TABNAME>
+    <DDLANGUAGE>E</DDLANGUAGE>
+    <TABCLASS>INTTAB</TABCLASS>
+    <DDTEXT>Include Structure for Consignee Party</DDTEXT>
+   </DD02V>
+   <DD03P_TABLE>
+    <DD03P>
+     <TABNAME>ZBOPF_S_PTY_CONSIGNEE</TABNAME>
+     <FIELDNAME>CP_ADDRESS_ID</FIELDNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <POSITION>0001</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000080</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000040</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Unique Identifier for Address (APC_V_ADDRESS_ID)</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZBOPF_S_PTY_CONSIGNEE</TABNAME>
+     <FIELDNAME>CONSIGNEE_ID</FIELDNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <POSITION>0002</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>C</INTTYPE>
+     <INTLEN>000020</INTLEN>
+     <DATATYPE>CHAR</DATATYPE>
+     <LENG>000010</LENG>
+     <MASK>  CHAR</MASK>
+     <DDTEXT>Ship-to Party</DDTEXT>
+    </DD03P>
+    <DD03P>
+     <TABNAME>ZBOPF_S_PTY_CONSIGNEE</TABNAME>
+     <FIELDNAME>CONSIGNEE_KEY</FIELDNAME>
+     <DDLANGUAGE>E</DDLANGUAGE>
+     <POSITION>0003</POSITION>
+     <ADMINFIELD>0</ADMINFIELD>
+     <INTTYPE>X</INTTYPE>
+     <INTLEN>000016</INTLEN>
+     <DATATYPE>RAW</DATATYPE>
+     <LENG>000016</LENG>
+     <MASK>  RAW</MASK>
+     <DDTEXT>Ship-to Party Business Partner GUID</DDTEXT>
+    </DD03P>
+   </DD03P_TABLE>
+  </asx:values>
+ </asx:abap>
+</abapGit>
